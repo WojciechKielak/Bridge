@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="1031.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+   <children>
+      <ImageView fx:id="image" fitHeight="606.0" fitWidth="1039.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mmm.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="przyc" layoutX="406.0" layoutY="16.0" mnemonicParsing="false" onAction="#start" text="Start" />
+      <TextField fx:id="MinP" layoutX="50.0" layoutY="46.0" prefHeight="31.0" prefWidth="65.0" text="1" />
+      <TextField fx:id="MinPr" layoutX="50.0" layoutY="121.0" prefHeight="31.0" prefWidth="65.0" text="1" />
+      <TextField fx:id="MaxPr" layoutX="174.0" layoutY="121.0" prefHeight="31.0" prefWidth="65.0" text="5" />
+      <TextField fx:id="MaxP" layoutX="174.0" layoutY="46.0" prefHeight="31.0" prefWidth="65.0" text="5" />
+      <Text layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Przedział czasowy pojawiania się samochodów (0-100):" wrappingWidth="418.9482421875" />
+      <Text layoutX="14.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Przedział czasowy przejzadu samochodów (0-100):" wrappingWidth="311.9482421875" />
+      <Text layoutX="14.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min :" wrappingWidth="36.00000238418579" />
+      <Text layoutX="14.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min :" wrappingWidth="36.00000238418579" />
+      <Text layoutX="131.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max :" wrappingWidth="45.00000238418579" />
+      <Text layoutX="131.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max :" wrappingWidth="45.00000238418579" />
+      <Button fx:id="przyc1" layoutX="406.0" layoutY="84.0" mnemonicParsing="false" onAction="#stopprogramik" prefHeight="32.0" prefWidth="54.0" text="End" />
+      <Text fx:id="napis1" layoutX="516.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="322.9482421875" />
+
+   </children>
+</AnchorPane>
